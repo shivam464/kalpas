@@ -1,0 +1,25 @@
+.Pagination-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Pagination-container p{
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 0px 9px;
+    border-radius: 50%;
+    background-color: rgb(158, 158, 158);
+    color: white;
+    cursor: pointer;
+}
+.Pagination-container p:nth-child(1){
+    background-color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    padding: 0px 17px;
+    color: black;
+}
+.fa-angle-double-right{
+    font-size: 1.9rem;
+    cursor: pointer;
+    color: rgb(209, 209, 209);
+}
